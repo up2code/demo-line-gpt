@@ -1,0 +1,4 @@
+functions-framework==3.*
+openai
+line-bot-sdk
+python-dotenv
