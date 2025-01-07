@@ -22,7 +22,7 @@ LINE_CHANNEL_SECRET=YOUR_VALUE
 ```
 
 - `OPENAI_API_KEY`: OpenAI API Key. Required from https://platform.openai.com/
-- `LINE_CHANNEL_ACCESS_TOKEN`: Channel access token. Accquired from (LINE Developers console)[https://developers.line.biz/console/] under your OA Channel.
+- `LINE_CHANNEL_ACCESS_TOKEN`: Channel access token. Accquired from [LINE Developers console](https://developers.line.biz/console/) under your OA Channel.
 - `LINE_CHANNEL_SECRET`: Channel secret. Accquired from LINE OA Settings > Messaging API
 
 ## Deploy into GCP via gcloud CLI
@@ -50,3 +50,7 @@ gcloud functions deploy demo-line-gpt \
 - Change `asia-southeast1` to your closest region
 
 After deploy successfully. Copy result URL and set it into Webhook of your LINE OA. (This task do only once when deploy first time)
+
+## References
+
+- [LINE Python SDK](https://github.com/line/line-bot-sdk-python)
